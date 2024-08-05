@@ -1,6 +1,15 @@
 @echo off
 setlocal enabledelayedexpansion
 
+set exclusionsFile=exclusions.txt
+
+set allItemsExclude=
+
+for /f "usebackq delims=" %%x in ("%exclusionsFile%") do (
+    set allItemsExclude=!allItemsExclude! --exclude="%%x"
+)
+
+
 :: Carrega as variáveis do arquivo .env
 if exist .env (
     for /f "tokens=* delims=" %%i in (.env) do (
@@ -57,8 +66,8 @@ if exist "%ZIP_FILE%" (
 
 :: Compacta todos os arquivos na pasta atual em um arquivo ZIP, excluindo .env e outros arquivos indesejados
 echo Compactando o mod em %ZIP_FILE%...
-tar -c -a -v -f "%ZIP_FILE%" --exclude=".env" --exclude="*.cmd" --exclude=".gitignore" --exclude="*.zip" --exclude="*.git" -o "."
-tar -c -a -v -f "%STEAM_FILE%/%ZIP_FILE%" --exclude=".env" --exclude="*.cmd" --exclude=".gitignore" --exclude="*.zip" --exclude="*.git" -o "."
+tar -c -a -v -f "%ZIP_FILE%" %allItemsExclude% -o "."
+tar -c -a -v -f "%STEAM_FILE%/%ZIP_FILE%" %allItemsExclude% -o "."
 
 :: Verifica se o arquivo ZIP foi criado com sucesso
 if not exist "%ZIP_FILE%" (

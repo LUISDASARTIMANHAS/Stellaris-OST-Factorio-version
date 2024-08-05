@@ -95,91 +95,81 @@ data:extend({
     },
     {
         type = "ambient-sound",
-        name = "deepspacetravels",
+        name = "journeythroughthegalaxy",
         track_type = "interlude",
         sound =
         {
-            filename = path_main .. "deepspacetravels.ogg",
+            filename = path_main .. "journeythroughthegalaxy.ogg",
             volume = 1.2
         }
     },
     {
         type = "ambient-sound",
-        name = "deepspacetravels",
+        name = "pillarsofcreation",
         track_type = "interlude",
         sound =
         {
-            filename = path_main .. "deepspacetravels.ogg",
+            filename = path_main .. "pillarsofcreation.ogg",
             volume = 1.2
         }
     },
     {
         type = "ambient-sound",
-        name = "deepspacetravels",
+        name = "ridingthesolarwind",
         track_type = "interlude",
         sound =
         {
-            filename = path_main .. "deepspacetravels.ogg",
+            filename = path_main .. "ridingthesolarwind.ogg",
             volume = 1.2
         }
     },
     {
         type = "ambient-sound",
-        name = "deepspacetravels",
+        name = "sigmatauri",
         track_type = "interlude",
         sound =
         {
-            filename = path_main .. "deepspacetravels.ogg",
+            filename = path_main .. "sigmatauri.ogg",
             volume = 1.2
         }
     },
     {
         type = "ambient-sound",
-        name = "deepspacetravels",
+        name = "spatiallullaby",
         track_type = "interlude",
         sound =
         {
-            filename = path_main .. "deepspacetravels.ogg",
+            filename = path_main .. "spatiallullaby.ogg",
             volume = 1.2
         }
     },
     {
         type = "ambient-sound",
-        name = "deepspacetravels",
+        name = "thebirthofastar",
         track_type = "interlude",
         sound =
         {
-            filename = path_main .. "deepspacetravels.ogg",
+            filename = path_main .. "thebirthofastar.ogg",
             volume = 1.2
         }
     },
     {
         type = "ambient-sound",
-        name = "deepspacetravels",
+        name = "thecelestialcity",
         track_type = "interlude",
         sound =
         {
-            filename = path_main .. "deepspacetravels.ogg",
+            filename = path_main .. "thecelestialcity.ogg",
             volume = 1.2
         }
     },
     {
         type = "ambient-sound",
-        name = "deepspacetravels",
+        name = "totheendsofthegalaxy",
         track_type = "interlude",
         sound =
         {
-            filename = path_main .. "deepspacetravels.ogg",
-            volume = 1.2
-        }
-    },
-    {
-        type = "ambient-sound",
-        name = "deepspacetravels",
-        track_type = "interlude",
-        sound =
-        {
-            filename = path_main .. "deepspacetravels.ogg",
+            filename = path_main .. "totheendsofthegalaxy.ogg",
             volume = 1.2
         }
     }
