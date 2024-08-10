@@ -1,4 +1,7 @@
 Copyright (c) 2002, Xiph.org Foundation & Paradox Plaza
+Copyright © 2018 Paradox Interactive AB. www.paradoxplaza.com
+
+listen on spotify: https://open.spotify.com/intl-pt/album/5hCoZYvVBKqOBst0qfgApe
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -16,4 +19,4 @@ contributors may be used to endorse or promote products derived from
 this software without specific prior written permission.
 
 DISCLAIMER:
-This mod was created by fans for fans. I do not own the rights to the Stellaris soundtrack, which belongs to Paradox Interactive. This mod is distributed free of charge and non-profit. If you are the copyright owner and wish to have the music removed from this mod, please contact me.
+This mod was created by fans for fans and for private use. I do not own the rights to the Stellaris soundtrack, which belongs to Paradox Interactive. This mod is distributed free of charge and non-profit. If you are the copyright holder and wish to have the music removed from this mod, please contact me.
